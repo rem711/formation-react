@@ -1,0 +1,26 @@
+.lmj-categories {
+	padding: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.lmj-category {
+	display: flex;
+	justify-content: center;	
+	align-items: center;
+	margin-right: 15px;
+}
+
+.lmj-category input[type="checkbox"] {
+	margin: 0 4px;
+}
+
+.lmj-category button {
+	background: none;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	text-decoration: underline;
+}
