@@ -1,0 +1,17 @@
+{
+  "name": "shiny-agency",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "backend": "yarn --cwd ./backend/ run start",
+    "frontend": "yarn --cwd ./frontend/ run start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
