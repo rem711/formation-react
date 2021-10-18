@@ -1,0 +1,32 @@
+{
+    // "extends": ["airbnb"],
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true,
+        "jest": true
+    },
+    "plugins": ["react", "jest"],
+    "extends": ["eslint:recommended", "plugin:react/recommended"],
+    "rules": {
+        "no-console": "off",
+        "semi": "off",
+        "template-curly-spacing": "off",
+        // Indent with 4 spaces
+        "indent": [
+            "warn",
+            4,
+            {
+                "ignoredNodes": [
+                    "TemplateLiteral",
+                    "ArrowFunctionExpression > BlockStatement"
+                ]
+            }
+        ],
+        // Indent JSX with 4 spaces
+        "react/jsx-indent": ["warn", 4],
+        // Indent props with 4 spaces
+        "react/jsx-indent-props": ["warn", 4],
+        "react/no-unescaped-entities": 0,
+        "react/react-in-jsx-scope": "off"
+    }
+}
